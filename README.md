@@ -1,6 +1,8 @@
 Scope covered in this project
-1.
 
+1. Responsive behaviour added for mobile view
+2. Filters working properly and fetches correct response
+3. Unit Tests added for all the components
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
