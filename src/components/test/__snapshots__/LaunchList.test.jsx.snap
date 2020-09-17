@@ -1,0 +1,810 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LaunchList/> render LaunchList with mission stub 1`] = `
+<div>
+  <div
+    class="list-container"
+  >
+    <div
+      class="list-item"
+    >
+      <div
+        class="mission-patch"
+      >
+        <img
+          alt="mission picture"
+          src="https://images2.imgbox.com/9a/96/nLppz9HW_o.png"
+        />
+      </div>
+      <div
+        class="mission-name"
+      >
+        Starlink 2
+         #
+        87
+      </div>
+      
+      <div
+        class="year-field"
+      >
+        <span
+          class="launch-year"
+        >
+          Launch Year :
+        </span>
+        <span
+          class="data-values"
+        >
+          2020
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Launch :
+        </span>
+        <span
+          class="launch-data-values"
+        >
+          True
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Landing :
+        </span>
+        <span
+          class="launch-data-values"
+        />
+      </div>
+    </div>
+    <div
+      class="list-item"
+    >
+      <div
+        class="mission-patch"
+      >
+        <img
+          alt="mission picture"
+          src="https://images2.imgbox.com/9a/96/nLppz9HW_o.png"
+        />
+      </div>
+      <div
+        class="mission-name"
+      >
+        Starlink 3
+         #
+        89
+      </div>
+      
+      <div
+        class="year-field"
+      >
+        <span
+          class="launch-year"
+        >
+          Launch Year :
+        </span>
+        <span
+          class="data-values"
+        >
+          2020
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Launch :
+        </span>
+        <span
+          class="launch-data-values"
+        >
+          True
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Landing :
+        </span>
+        <span
+          class="launch-data-values"
+        />
+      </div>
+    </div>
+    <div
+      class="list-item"
+    >
+      <div
+        class="mission-patch"
+      >
+        <img
+          alt="mission picture"
+          src="https://images2.imgbox.com/53/22/dh0XSLXO_o.png"
+        />
+      </div>
+      <div
+        class="mission-name"
+      >
+        CRS-20
+         #
+        91
+      </div>
+      <div
+        class="mission-id"
+      >
+        Mission Ids
+      </div>
+      <ul>
+        <li
+          class="data-values"
+        >
+          EE86F74
+        </li>
+      </ul>
+      <div
+        class="year-field"
+      >
+        <span
+          class="launch-year"
+        >
+          Launch Year :
+        </span>
+        <span
+          class="data-values"
+        >
+          2020
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Launch :
+        </span>
+        <span
+          class="launch-data-values"
+        >
+          True
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Landing :
+        </span>
+        <span
+          class="launch-data-values"
+        />
+      </div>
+    </div>
+    <div
+      class="list-item"
+    >
+      <div
+        class="mission-patch"
+      >
+        <img
+          alt="mission picture"
+          src="https://images2.imgbox.com/9a/96/nLppz9HW_o.png"
+        />
+      </div>
+      <div
+        class="mission-name"
+      >
+        Starlink 6
+         #
+        93
+      </div>
+      
+      <div
+        class="year-field"
+      >
+        <span
+          class="launch-year"
+        >
+          Launch Year :
+        </span>
+        <span
+          class="data-values"
+        >
+          2020
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Launch :
+        </span>
+        <span
+          class="launch-data-values"
+        >
+          True
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Landing :
+        </span>
+        <span
+          class="launch-data-values"
+        />
+      </div>
+    </div>
+    <div
+      class="list-item"
+    >
+      <div
+        class="mission-patch"
+      >
+        <img
+          alt="mission picture"
+          src="https://images2.imgbox.com/eb/0f/Vev7xkUX_o.png"
+        />
+      </div>
+      <div
+        class="mission-name"
+      >
+        CCtCap Demo Mission 2
+         #
+        94
+      </div>
+      <div
+        class="mission-id"
+      >
+        Mission Ids
+      </div>
+      <ul>
+        <li
+          class="data-values"
+        >
+          EE86F74
+        </li>
+      </ul>
+      <div
+        class="year-field"
+      >
+        <span
+          class="launch-year"
+        >
+          Launch Year :
+        </span>
+        <span
+          class="data-values"
+        >
+          2020
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Launch :
+        </span>
+        <span
+          class="launch-data-values"
+        >
+          True
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Landing :
+        </span>
+        <span
+          class="launch-data-values"
+        />
+      </div>
+    </div>
+    <div
+      class="list-item"
+    >
+      <div
+        class="mission-patch"
+      >
+        <img
+          alt="mission picture"
+          src="https://images2.imgbox.com/9a/96/nLppz9HW_o.png"
+        />
+      </div>
+      <div
+        class="mission-name"
+      >
+        Starlink 7
+         #
+        95
+      </div>
+      
+      <div
+        class="year-field"
+      >
+        <span
+          class="launch-year"
+        >
+          Launch Year :
+        </span>
+        <span
+          class="data-values"
+        >
+          2020
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Launch :
+        </span>
+        <span
+          class="launch-data-values"
+        >
+          True
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Landing :
+        </span>
+        <span
+          class="launch-data-values"
+        />
+      </div>
+    </div>
+    <div
+      class="list-item"
+    >
+      <div
+        class="mission-patch"
+      >
+        <img
+          alt="mission picture"
+          src="https://images2.imgbox.com/9a/96/nLppz9HW_o.png"
+        />
+      </div>
+      <div
+        class="mission-name"
+      >
+        Starlink-8 & SkySat 16-18
+         #
+        96
+      </div>
+      
+      <div
+        class="year-field"
+      >
+        <span
+          class="launch-year"
+        >
+          Launch Year :
+        </span>
+        <span
+          class="data-values"
+        >
+          2020
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Launch :
+        </span>
+        <span
+          class="launch-data-values"
+        >
+          True
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Landing :
+        </span>
+        <span
+          class="launch-data-values"
+        />
+      </div>
+    </div>
+    <div
+      class="list-item"
+    >
+      <div
+        class="mission-patch"
+      >
+        <img
+          alt="mission picture"
+        />
+      </div>
+      <div
+        class="mission-name"
+      >
+        GPS III SV03 (Columbus)
+         #
+        97
+      </div>
+      
+      <div
+        class="year-field"
+      >
+        <span
+          class="launch-year"
+        >
+          Launch Year :
+        </span>
+        <span
+          class="data-values"
+        >
+          2020
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Launch :
+        </span>
+        <span
+          class="launch-data-values"
+        >
+          True
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Landing :
+        </span>
+        <span
+          class="launch-data-values"
+        />
+      </div>
+    </div>
+    <div
+      class="list-item"
+    >
+      <div
+        class="mission-patch"
+      >
+        <img
+          alt="mission picture"
+        />
+      </div>
+      <div
+        class="mission-name"
+      >
+        ANASIS-II
+         #
+        98
+      </div>
+      
+      <div
+        class="year-field"
+      >
+        <span
+          class="launch-year"
+        >
+          Launch Year :
+        </span>
+        <span
+          class="data-values"
+        >
+          2020
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Launch :
+        </span>
+        <span
+          class="launch-data-values"
+        >
+          True
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Landing :
+        </span>
+        <span
+          class="launch-data-values"
+        />
+      </div>
+    </div>
+    <div
+      class="list-item"
+    >
+      <div
+        class="mission-patch"
+      >
+        <img
+          alt="mission picture"
+          src="https://images2.imgbox.com/9a/96/nLppz9HW_o.png"
+        />
+      </div>
+      <div
+        class="mission-name"
+      >
+        Starlink-9 (v1.0) & BlackSky Global 5-6
+         #
+        99
+      </div>
+      
+      <div
+        class="year-field"
+      >
+        <span
+          class="launch-year"
+        >
+          Launch Year :
+        </span>
+        <span
+          class="data-values"
+        >
+          2020
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Launch :
+        </span>
+        <span
+          class="launch-data-values"
+        >
+          True
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Landing :
+        </span>
+        <span
+          class="launch-data-values"
+        />
+      </div>
+    </div>
+    <div
+      class="list-item"
+    >
+      <div
+        class="mission-patch"
+      >
+        <img
+          alt="mission picture"
+          src="https://images2.imgbox.com/9a/96/nLppz9HW_o.png"
+        />
+      </div>
+      <div
+        class="mission-name"
+      >
+        Starlink-10 (v1.0) & SkySat 19-21
+         #
+        100
+      </div>
+      
+      <div
+        class="year-field"
+      >
+        <span
+          class="launch-year"
+        >
+          Launch Year :
+        </span>
+        <span
+          class="data-values"
+        >
+          2020
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Launch :
+        </span>
+        <span
+          class="launch-data-values"
+        >
+          True
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Landing :
+        </span>
+        <span
+          class="launch-data-values"
+        />
+      </div>
+    </div>
+    <div
+      class="list-item"
+    >
+      <div
+        class="mission-patch"
+      >
+        <img
+          alt="mission picture"
+          src="https://i.imgur.com/CFZLKzV.png"
+        />
+      </div>
+      <div
+        class="mission-name"
+      >
+        SAOCOM 1B, GNOMES-1, Tyvak-0172
+         #
+        101
+      </div>
+      
+      <div
+        class="year-field"
+      >
+        <span
+          class="launch-year"
+        >
+          Launch Year :
+        </span>
+        <span
+          class="data-values"
+        >
+          2020
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Launch :
+        </span>
+        <span
+          class="launch-data-values"
+        >
+          True
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Landing :
+        </span>
+        <span
+          class="launch-data-values"
+        />
+      </div>
+    </div>
+    <div
+      class="list-item"
+    >
+      <div
+        class="mission-patch"
+      >
+        <img
+          alt="mission picture"
+          src="https://images2.imgbox.com/9a/96/nLppz9HW_o.png"
+        />
+      </div>
+      <div
+        class="mission-name"
+      >
+        Starlink-11 (v1.0)
+         #
+        102
+      </div>
+      
+      <div
+        class="year-field"
+      >
+        <span
+          class="launch-year"
+        >
+          Launch Year :
+        </span>
+        <span
+          class="data-values"
+        >
+          2020
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Launch :
+        </span>
+        <span
+          class="launch-data-values"
+        >
+          True
+        </span>
+      </div>
+      <div
+        class="launch-success-field"
+      >
+        <span
+          class="launch-success-label"
+        >
+          Successful Landing :
+        </span>
+        <span
+          class="launch-data-values"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

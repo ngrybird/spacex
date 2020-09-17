@@ -1,26 +1,56 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Filters from "./components/Filters";
+import { getLaunchInfo } from "./utils/api";
+import LaunchList from "./components/LaunchList";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      loading: false,
+      launchList: [],
+      filterOptions: {
+        year: "",
+        successLaunch: "",
+        successLand: ""
+      }
+    };
+  }
+  updateFilters = filterOptions => {
+    console.log(filterOptions);
+    this.setState({ ...this.state, filterOptions }, this.triggerApiCall);
+  };
+  componentDidMount() {
+    this.setState({ ...this.state, loading: true }, this.triggerApiCall);
+  }
+  triggerApiCall = () => {
+    getLaunchInfo(this.state.filterOptions).then(data => {
+      console.log(data);
+      this.setState({ ...this.state, loading: false, launchList: data });
+    });
+  };
+
+  render() {
+    return (
+      <>
+        <div className="page-header">SpaceX Launch Programs</div>
+        <div className="app-container">
+          <Filters
+            {...this.state.filterOptions}
+            updateFilters={this.updateFilters}
+          />
+          {this.state.loading ? (
+            <div className="loading-message">Loading...</div>
+          ) : (
+            <div>
+              <LaunchList launchList={this.state.launchList} />
+            </div>
+          )}
+        </div>
+      </>
+    );
+  }
 }
 
 export default App;

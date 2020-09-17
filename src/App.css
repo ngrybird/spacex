@@ -13,26 +13,125 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background: #f2f2f2;
+}
+.app-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-grow: row wrap;
 }
-
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 700px) {
+  .list-container {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+  }
+  .app-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+button {
+  background: #c5e09b;
+  border: none;
+  border-radius: 3px;
+  width: 60px;
+  height: 20px;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+button:focus {
+  outline: none;
+  border: none;
+}
+.is-selected {
+  background: #7bba03;
+}
+u {
+  text-align: center;
+}
+.labels {
+  text-align: center;
+}
+.page-header {
+  margin: 10px 20px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.loading-message {
+  margin-top: 25%;
+  margin-left: 25%;
+}
+.filters-container {
+  background: #fffdfb;
+  min-width: 240px;
+  max-width: 240px;
+  height: fit-content;
+  border-radius: 5px;
+  padding-bottom: 30px;
+  margin-left: 20px;
+  margin-top: 21px;
+  @media screen and (max-width: 700px) {
+    min-width: 250px;
+    max-width: 250px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.filters-content {
+  margin-top: 25px;
+}
+.list-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+.list-item {
+  min-width: 250px;
+  max-width: 250px;
+  margin-left: 20px;
+  margin-top: 20px;
+  background: #fffdfb;
+  border-radius: 5px;
+  padding: 20px;
+}
+.mission-name {
+  margin-top: 10px;
+  color: #454a91;
+  font-weight: 700;
+}
+.mission-patch {
+  margin-top: 10px;
+  width: 250px;
+  height: 250px;
+  background: #f2f2f2;
+}
+.mission-id {
+  margin-top: 10px;
+  font-weight: 700;
+}
+.year-field {
+  margin-top: 10px;
+}
+.launch-year {
+  font-weight: 700;
+}
+.data-values {
+  color: #454a91;
+}
+ul {
+  margin: 5px auto;
+}
+.launch-success-field {
+  margin-top: 10px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.launch-success-label {
+  font-weight: 700;
+  width: 41%;
+}
+.launch-data-values {
+  color: #454a91;
+  width: 50%;
 }
