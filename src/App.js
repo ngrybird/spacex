@@ -47,6 +47,10 @@ class App extends React.Component {
               <LaunchList launchList={this.state.launchList} />
             </div>
           )}
+          <footer className="labels ">
+            <div className="mission-id labels">Developed By</div>
+            <div>Anis Madaki</div>
+          </footer>
         </div>
       </>
     );
